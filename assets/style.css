@@ -1,7 +1,20 @@
 /* Need universal Styling */
-
+*{
+    background-color: darkolivegreen;
+    color: floralwhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 /* will need text box styling */
 
+/* generic image styling*/
+img {
+    width: 250px;
+    height: 250px;
+    border: gray;
+    border-width:medium;
+    margin: 10px;
+    padding: 10px;
+}
 
 
 /* Responsive pages for different viewport */

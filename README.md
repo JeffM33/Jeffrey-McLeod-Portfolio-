@@ -1,7 +1,7 @@
 # Jeffrey-McLeod-Portfolio-
 <!-- 
 *** ReadME template from othneilDrew
-*** You can get his ReadMe templete here https://github.com/othneildrew/Best-README-Template -->
+*** You can get his ReadMe template here https://github.com/othneildrew/Best-README-Template -->
 
 
 <!-- PROJECT SHIELDS -->
