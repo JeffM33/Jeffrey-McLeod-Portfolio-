@@ -1,12 +1,15 @@
 /* Need universal Styling */
 *{
-    /* background-color: darkolivegreen;
-    color: floralwhite; */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+  background-image: url('./images/background.jpg');
+  color: floralwhite;
 }
 
 header h1 {
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
     padding: 1rem 1.2rem;
     font-size: 4.5rem;
@@ -35,10 +38,15 @@ header nav ul li {
     margin-left: 25px;
 }
 
+body {
+  background-color: burlywood;
+}
+
 .card-header {
     position: relative;
     margin-top: 5%;
     text-align: center;
+   
 }
 
 footer {
@@ -54,6 +62,14 @@ img {
     padding: 10px;
 }
 
+/* Making the first image larger */
+.imgFirst {
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+  padding: 20px;
+}
+
 /* Creating a row for my first 3 applications to sit side by side */
 .row {
     display: flex;
@@ -61,16 +77,13 @@ img {
     flex-wrap: wrap;
 }
 
-/* Responsive pages for different viewport */
-/* needs to adapt to layout */
+/* media query for smart phones, and tablets */
 @media screen and (min-width: 768px) {
-    /* on tablets, set columns to only be 50% of the width and not grow */
     .card-column {
       flex: 0 0 50%;
       max-width: 50%;
     }
   
-    /* select the last child to grow to full width if it has space to grow */
     .card-column:last-child {
       flex-grow: 1;
     }
