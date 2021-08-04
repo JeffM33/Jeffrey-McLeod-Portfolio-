@@ -1,11 +1,46 @@
 /* Need universal Styling */
 *{
-    background-color: darkolivegreen;
-    color: floralwhite;
+    /* background-color: darkolivegreen;
+    color: floralwhite; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-/* will need text box styling */
 
+header h1 {
+    width: 96%;
+    margin: 0 auto;
+    padding: 1rem 1.2rem;
+    font-size: 4.5rem;
+    text-align: center;
+    align-items: center;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    
+}
+
+header nav ul li {
+    
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.card-header {
+    position: relative;
+    margin-top: -20px;
+}
+
+footer {
+    text-align: center;
+}
 /* generic image styling*/
 img {
     width: 250px;
@@ -19,4 +54,27 @@ img {
 
 /* Responsive pages for different viewport */
 /* needs to adapt to layout */
-
+@media screen and (min-width: 768px) {
+    /* on tablets, set columns to only be 50% of the width and not grow */
+    .card-column {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  
+    /* select the last child to grow to full width if it has space to grow */
+    .card-column:last-child {
+      flex-grow: 1;
+    }
+  }
+  
+  /* media query for larger screens */
+  @media screen and (min-width: 992px) {
+    header {
+      width: 75%;
+    }
+  
+    .card-column {
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
+  }
