@@ -61,9 +61,7 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -72,18 +70,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
 `JeffM33`, `Jeffrey-McLeod-Portfolio-`, `jeffreymmcleod@outlook.com`, `Jeffrey McLeod's Portfolio`, `Web based portfolio with my work I have done in the past.`
-
-
-### Built With
-
-* []()
-* []()
-* []()
 
 
 
@@ -91,14 +78,6 @@ Here's a blank template to get started:
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
@@ -112,11 +91,9 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+<img src="./assets/images/Portfolio-page.jpg" alt="webpage" width= "1000px" height= "1000px">
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
+This website shows my usage of HTML, and CSS to create a webpage that can be used to navagate the different projects i have worked on. I hope you enjoyed looking at the verious usages of flex box, combined with other CSS, and HTML techniques. If you like what you see and you have a project for me to work on please feel free to contact me at the linked in or email address provided.
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -137,14 +114,6 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
 <!-- CONTACT -->
 ## Contact
 
@@ -154,12 +123,6 @@ Project Link: [https://github.com/JeffM33/Jeffrey-McLeod-Portfolio-](https://git
 
 
 
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
 
 
 
