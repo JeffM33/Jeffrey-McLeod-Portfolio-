@@ -6,7 +6,7 @@
 }
 
 header h1 {
-    width: 96%;
+    width: 80%;
     margin: 0 auto;
     padding: 1rem 1.2rem;
     font-size: 4.5rem;
@@ -37,7 +37,8 @@ header nav ul li {
 
 .card-header {
     position: relative;
-    margin-top: -20px;
+    margin-top: 5%;
+    text-align: center;
 }
 
 footer {
