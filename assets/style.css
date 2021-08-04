@@ -19,6 +19,8 @@ header nav {
     margin-right: 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
     font-size: 20px;
 }
 
@@ -51,6 +53,12 @@ img {
     padding: 10px;
 }
 
+/* Creating a row for my first 3 applications to sit side by side */
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 /* Responsive pages for different viewport */
 /* needs to adapt to layout */
